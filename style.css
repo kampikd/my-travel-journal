@@ -26,3 +26,54 @@ nav > p {
     font-size: 14px;
     letter-spacing: -0.075em;
 }
+
+.place {
+    display: flex;
+    margin: 40px;
+    height: 168px;
+    color: #2B283A;
+}
+
+.place > img {
+    display: flex;
+    width: 125px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.place > .content {
+    font-size: 10px;
+    margin-left: 20px;
+}
+
+.place > .content > .location > span {
+    text-transform: uppercase;
+    letter-spacing: 0.17em;
+}
+
+.place > .content > .location > a {
+    color: #918E9B;
+    margin-left: 12px;
+}
+
+.place > .content > .location > i {
+    margin-right: 4px;
+    color: #f55a5a;
+}
+
+.place > .content > h1 {
+    font-size: 25px;
+    margin-top: 4px;
+}
+
+.place > .content > h3 {
+    font-weight: 700;
+    font-size: 10.24px;
+    line-height: 12px;
+    margin-top: 22px;
+
+}
+
+.place > .content > .description {
+    line-height: 150%;
+}
