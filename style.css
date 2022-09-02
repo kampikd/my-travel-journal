@@ -2,3 +2,27 @@
     box-sizing: border-box;
 }
 
+html, body {
+    font-family: 'Inter', 'sans-serif';
+    margin: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 55px;
+    background-color: #f55a5a;
+    color: #fff;
+}
+
+nav > i {
+    font-size: 24px;
+    margin-right: 7px;;
+}
+
+nav > p {
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: -0.075em;
+}
